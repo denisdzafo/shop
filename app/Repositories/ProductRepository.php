@@ -83,4 +83,9 @@ class ProductRepository
 	{
 		$this->tag::delete($id);
 	}
+
+	public function getProducts()
+	{
+		return $this->product::all();
+	}
 }
