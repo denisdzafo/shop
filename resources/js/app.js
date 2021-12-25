@@ -7,10 +7,10 @@ import VueRouter from 'vue-router'
 import Index from './Index'
 import api from './api'
 import router from './router'
+import store from './store'
 
 
-Vue.component('index', Index)
 const app = new Vue({
-  el: '#app',
-  router
-});
+    components: { Index },
+    router
+}).$mount('#app')

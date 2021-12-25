@@ -8,7 +8,7 @@
 
         <li class="nav-item"><router-link to="/shop" class="nav-link link-scroll">Shop</router-link></li>
         <li class="nav-item"><router-link to="/about" class="nav-link link-scroll">About</router-link></li>
-        <li class="nav-item"><a href="#" class="nav-link link-scroll">Login</a></li>
+        <li class="nav-item"><router-link to="/login" class="nav-link link-scroll">Login</router-link></li>
         <li class="nav-item"><router-link to="/register" class="nav-link link-scroll">Register</router-link></li>
         <li class="nav-item"><router-link to="/contact" class="nav-link link-scroll">Contact</router-link></li>    
       </ul>

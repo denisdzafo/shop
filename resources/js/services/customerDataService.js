@@ -5,6 +5,10 @@ class customerDataService {
 	    return http.post("/auth/register", data);
 	  }
 
+	  login(data) {
+	  	return http.post("/auth/login", data);
+	  }
+
 	  getProducts() {
 	    return http.get(`/products`);
 	  }
